@@ -39,14 +39,7 @@ export function Header({ onHelpClick }: HeaderProps) {
             <button
               onClick={toggleTheme}
               className="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors duration-200"
-              aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
-              title={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
             >
-              {isDark ? (
-                <Sun className="w-5 h-5 text-slate-300" />
-              ) : (
-                <Moon className="w-5 h-5 text-slate-700" />
-              )}
             </button>
           </div>
         </div>
